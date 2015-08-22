@@ -1,0 +1,106 @@
+body {
+    padding-top: 50px;
+}
+
+.navbar-brand {
+    padding-left: 45px;
+    background: url("../img/cq_0004.png") no-repeat center left;
+    background-size: 40px;
+}
+
+.content-index {
+    height: 650px;
+}
+
+.content-index-a {
+    background: url("../img/index_banner.png") no-repeat center;
+}
+
+.content-index-a .content {
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+    line-height: 55px;
+}
+
+.content-index-a img {
+    margin-top: 101px;
+}
+
+.content-index-a button {
+    color: white;
+    background: transparent url("../img/iconfont-apple.png") no-repeat 5px;
+    background-size: 20px 20px;
+    padding: 8px 12px 8px 29px;
+    border-width: 2px;
+    border-radius: 7px;
+}
+
+.content-index-a button:hover {
+    color: white;
+}
+
+.content-index-b {
+    background-color: #fbfcfe;
+}
+
+.content-index-b .content {
+    padding-top: 200px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.content-index-b .content p:nth-child(3) {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.content-index-b img {
+    margin-top: 55px;
+}
+
+.content-index-c {
+    background-color: #f9f9ed;
+}
+
+.content-index-c .content {
+    padding-top: 200px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.content-index-c .content p:nth-child(3) {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.content-index-c img {
+    margin-top: 47px;
+}
+
+.content-index-d {
+    background-color: #fbfcfe;
+}
+
+.content-index-d .content {
+    padding-top: 200px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.content-index-d .content p:nth-child(3) {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.content-index-d img {
+    margin-top: 39px;
+}
+
+footer {
+    padding: 15px 0 5px;
+    background-color: #2e2e2f;
+    text-align: center;
+    vertical-align: middle;
+    color: #707172;
+}
