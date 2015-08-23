@@ -8,6 +8,16 @@ body {
     background-size: 40px;
 }
 
+footer {
+    padding: 15px 0 5px;
+    background-color: #2e2e2f;
+    text-align: center;
+    vertical-align: middle;
+    color: #707172;
+}
+
+/* index */
+
 .content-index {
     height: 650px;
 }
@@ -97,6 +107,8 @@ body {
     margin-top: 39px;
 }
 
+/* about */
+
 .content-about {
     height: 650px;
 }
@@ -106,25 +118,49 @@ body {
 }
 
 .content-about-header {
+    height: 650px;
     background: url("../img/about-banner.png") no-repeat center center;
 }
 
 .content-about-header .content {
     color: white;
-    font-size: 25px;
-    line-height: 35px;
-    margin-top: 180px;
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 150px;
 }
 
 .content-about-header .content h1 {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 40px;
 }
 
-footer {
-    padding: 15px 0 5px;
-    background-color: #2e2e2f;
-    text-align: center;
-    vertical-align: middle;
-    color: #707172;
+.content-about .content {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 35px;
 }
+
+.content-about .content h1 {
+    text-indent: 0;
+    text-align: center;
+    color: #f4ba1c;
+    font-size: 28px;
+}
+
+.content-about .img {
+    text-align: center;
+}
+
+.content-about-c .content p {
+    text-indent: 0;
+    text-align: center;
+    color: #f4ba1c;
+}
+
+.content-about-c img {
+    margin-left: 60px;
+}
+
