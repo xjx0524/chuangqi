@@ -97,6 +97,30 @@ body {
     margin-top: 39px;
 }
 
+.content-about {
+    height: 650px;
+}
+
+.content-about-b {
+    background-color: #eff0f1;
+}
+
+.content-about-header {
+    background: url("../img/about-banner.png") no-repeat center center;
+}
+
+.content-about-header .content {
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 180px;
+}
+
+.content-about-header .content h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 footer {
     padding: 15px 0 5px;
     background-color: #2e2e2f;
