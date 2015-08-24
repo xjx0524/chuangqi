@@ -164,3 +164,40 @@ footer {
     margin-left: 60px;
 }
 
+/* team */
+
+.content-team-header {
+    height: 650px;
+    background: url("../img/team-banner.png") no-repeat center center;
+}
+
+.content-team {
+    text-indent: 2em;
+}
+
+.content-team h1 {
+    color: #f4ba1c;
+    font-size: 30px;
+}
+
+.content-team p {
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.content-photo {
+    text-align: center;
+}
+
+.content-photo .row {
+    margin-bottom: 50px;
+}
+
+.content-photo .photo {
+    border: 1px solid black;
+    border-radius: 999px;
+}
+
+.content-photo .name {
+    font-size: 25px;
+}
