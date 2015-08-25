@@ -273,3 +273,19 @@ footer {
 .panel-body {
     line-height: 30px;
 }
+
+.panel-default .panel-heading {
+    background-color: white;
+}
+
+.panel-title {
+    color: #f8c10b;
+}
+
+.panel-title a, .panel-title a:hover {
+    text-decoration: none;
+}
+
+.panel-body {
+    background-color: #e9eaeb;
+}
