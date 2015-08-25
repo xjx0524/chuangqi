@@ -77,54 +77,294 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 col-md-offset-1">
-                <ul class="dept">
-                    <li><a class="active" href="#jishu">技术部</a></li>
-                    <li><a href="#chanpin">产品部</a></li>
-                    <li><a href="#yunying">运营部</a></li>
-                    <li><a href="#shichang">市场部</a></li>
+                <ul class="dept" id="dept">
+                    <li><a class="active" data-target="#jishu" role="button" data-parent="#dept">技术部</a></li>
+                    <li><a data-target="#chanpin" role="button" data-parent="#dept">产品部</a></li>
+                    <li><a data-target="#yunying" role="button" data-parent="#dept">运营部</a></li>
+                    <li><a data-target="#shichang" role="button" data-parent="#dept">市场部</a></li>
                 </ul>
             </div>
-            <div class="col-md-6">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="col-md-7">
+                <div class="panel-group" id="jishu" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingOne">
+                        <div class="panel-heading" role="tab" id="heading-jishu1">
                             <h4 class="panel-title">
-                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Collapsible Group Item #1
+                                <a role="button" data-toggle="collapse" data-parent="#jishu" href="#jishu1" aria-expanded="true" aria-controls="collapseOne">
+                                    Web 前端
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div id="jishu1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-jishu1">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
+                        <div class="panel-heading" role="tab" id="heading-jishu2">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Collapsible Group Item #2
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#jishu" href="#jishu2" aria-expanded="false" aria-controls="collapseTwo">
+                                    Web 前端
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div id="jishu2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-jishu2">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
                             </div>
                         </div>
                     </div>
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
+                        <div class="panel-heading" role="tab" id="heading-jishu3">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Collapsible Group Item #3
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#jishu" href="#jishu3" aria-expanded="false" aria-controls="collapseThree">
+                                    Web 前端
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div id="jishu3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingjishu3">
                             <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group hide" id="chanpin" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-chanpin1">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#chanpin" href="#chanpin1" aria-expanded="true" aria-controls="collapseOne">
+                                    产品部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="chanpin1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-chanpin1">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-chanpin2">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#chanpin" href="#chanpin2" aria-expanded="false" aria-controls="collapseTwo">
+                                    产品部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="chanpin2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-chanpin2">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-chanpin3">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#chanpin" href="#chanpin3" aria-expanded="false" aria-controls="collapseThree">
+                                    产品部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="chanpin3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingchanpin3">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group hide" id="yunying" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-yunying1">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#yunying" href="#yunying1" aria-expanded="true" aria-controls="collapseOne">
+                                    运营部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="yunying1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-yunying1">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-yunying2">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#yunying" href="#yunying2" aria-expanded="false" aria-controls="collapseTwo">
+                                    运营部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="yunying2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-yunying2">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-yunying3">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#yunying" href="#yunying3" aria-expanded="false" aria-controls="collapseThree">
+                                    运营部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="yunying3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingyunying3">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group hide" id="shichang" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-shichang1">
+                            <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#shichang" href="#shichang1" aria-expanded="true" aria-controls="collapseOne">
+                                    市场部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="shichang1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-shichang1">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-shichang2">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#shichang" href="#shichang2" aria-expanded="false" aria-controls="collapseTwo">
+                                    市场部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="shichang2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-shichang2">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading-shichang3">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#shichang" href="#shichang3" aria-expanded="false" aria-controls="collapseThree">
+                                    市场部
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="shichang3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingshichang3">
+                            <div class="panel-body">
+                                <strong>工作内容：</strong><br>
+                                负责掉钱眼儿前端开发<br>
+                                <strong>岗位要求：</strong><br>
+                                1、能够独立设计web页面<br>
+                                2、精通javascript、oop及主流JS框架，具备一定的框架设计能力；<br>
+                                3、熟悉HTML5、CSS3等新技术；<br>
+                                4、精通网站性能优化，技术体验优化；<br>
+                                5、有良好的团队合作能力，善于沟通；<br>
+                                6、乐于实践新技术，有后端基础的优先（PHP、java、Ruby、python等）<br>
+                                7、面试时请携带个人作品，工资面议；
                             </div>
                         </div>
                     </div>
@@ -143,5 +383,6 @@
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

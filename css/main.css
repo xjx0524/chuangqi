@@ -243,16 +243,22 @@ footer {
     margin-bottom: 60px;
 }
 
+.content-jobs-b {
+    height: 800px;
+}
+
 .content-jobs-b .dept {
     list-style: none;
 }
 
 .content-jobs-b .dept li {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .content-jobs-b .dept li a {
-    padding: 10px 15px;
+    display: block;
+    width: 104px;
+    padding: 8px 15px;
     border: 1px solid #8e8e8e;
     font-size: 24px;
     color: black;
@@ -262,4 +268,8 @@ footer {
 .content-jobs-b .dept li a.active {
     background-color: #f8c10b;
     color: white;
+}
+
+.panel-body {
+    line-height: 30px;
 }
