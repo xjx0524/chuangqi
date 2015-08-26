@@ -7,7 +7,7 @@
 
 body {
     padding-top: 50px;
-    font-family: STHeiti,"Source Han Sans","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "华文细黑","Source Han Sans","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .navbar-default {
@@ -39,7 +39,7 @@ body {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: white;
     color: #ffca01;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .navbar-default .navbar-nav>.active>a:after, .navbar-default .navbar-nav>.active>a:focus:after, .navbar-default .navbar-nav>.active>a:hover:after {
