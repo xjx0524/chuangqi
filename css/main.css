@@ -277,9 +277,8 @@ footer {
 
 /* team */
 
-.content-team-header {
-    height: 650px;
-    background: url("../img/team-banner.png") no-repeat center center;
+.content-team-header img {
+    width: 100%;
 }
 
 .content-team {
@@ -312,6 +311,17 @@ footer {
 
 .content-photo .name {
     font-size: 25px;
+}
+
+@media(max-width:767px) {
+
+    .content-photo .row {
+        margin-bottom: 30px;
+    }
+    
+    .content-photo .row .desc:first-child {
+        margin-bottom: 30px;
+    }
 }
 
 /* jobs */
