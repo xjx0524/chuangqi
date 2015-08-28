@@ -63,6 +63,18 @@ body {
     border-bottom: 2px solid #ffca01;
 }
 
+@media(max-width:767px) {
+
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-default .navbar-nav>li>a:after, .navbar-default .navbar-nav>.active>a:after, .navbar-default .navbar-nav>li>a:focus:after, .navbar-default .navbar-nav>li>a:hover:after {
+        display: none;
+    }
+}
+
 footer {
     padding: 15px 0 5px;
     background-color: #2e2e2f;
