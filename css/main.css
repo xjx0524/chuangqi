@@ -318,7 +318,7 @@ footer {
     .content-photo .row {
         margin-bottom: 30px;
     }
-    
+
     .content-photo .row .desc:first-child {
         margin-bottom: 30px;
     }
@@ -327,13 +327,14 @@ footer {
 /* jobs */
 
 .content-jobs-header {
-    height: 600px;
+    padding: 50px 0;
     background: url("../img/jobs-banner.png") no-repeat center center;
     color: white;
 }
 
 .content-jobs-header .row {
-    margin-top: 110px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .content-jobs-header h1 {
@@ -415,4 +416,34 @@ footer {
 
 .panel-body {
     background-color: #e9eaeb;
+}
+
+.dept-phone {
+    display: none;
+}
+
+@media(max-width:767px) {
+
+    .content-jobs-header .content ul{
+        margin: 0;
+    }
+
+    .dept {
+        display: none;
+    }
+
+    .dept-phone {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .dept-phone .btn-default.active, .dept-phone .btn-default:active, .dept-phone .btn-default:focus, .dept-phone .btn-default:hover {
+        color: white;
+        background-color: #f8c10b;
+    }
+
+    .dept-phone .btn.active {
+        box-shadow: none;
+    }
+
 }
