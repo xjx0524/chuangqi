@@ -202,23 +202,24 @@ footer {
 /* about */
 
 .content-about {
-    height: 650px;
+    padding: 50px 0;
 }
 
-.content-about-b {
+.content-about-b, .content-about-d {
     background-color: #eff0f1;
 }
 
 .content-about-header {
-    height: 650px;
+    padding: 50px 0;
     background: url("../img/about-banner.png") no-repeat center center;
 }
 
 .content-about-header .content {
+    margin-top: 55px;
+    margin-bottom: 55px;
     color: white;
     font-size: 28px;
     line-height: 40px;
-    margin-top: 150px;
 }
 
 .content-about-header .content h1 {
@@ -255,6 +256,23 @@ footer {
 
 .content-about-c img {
     margin-left: 60px;
+}
+
+@media(max-width:767px) {
+
+    .content-about-d img {
+        width: 100%;
+    }
+
+    .content-about-c img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .content-about-a img {
+        margin-bottom: 20px;
+    }
+
 }
 
 /* team */
