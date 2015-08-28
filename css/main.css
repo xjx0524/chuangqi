@@ -6,7 +6,7 @@
 }
 
 body {
-    padding-top: 50px;
+    padding-top: 70px;
     font-family: "华文细黑","Source Han Sans","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -63,12 +63,6 @@ body {
     border-bottom: 2px solid #ffca01;
 }
 
-    /*.navbar-brand {*/
-    /*padding-left: 45px;*/
-    /*background: url("../img/cq_0004.png") no-repeat center left;*/
-    /*background-size: 40px;*/
-/*}*/
-
 footer {
     padding: 15px 0 5px;
     background-color: #2e2e2f;
@@ -80,7 +74,7 @@ footer {
 /* index */
 
 .content-index {
-    height: 650px;
+    padding: 50px 0;
 }
 
 .content-index-a {
@@ -88,14 +82,16 @@ footer {
 }
 
 .content-index-a .content {
-    padding-top: 200px;
+    margin-top: 120px;
+    margin-bottom: 120px;
     font-size: 30px;
     color: white;
     line-height: 55px;
 }
 
 .content-index-a img {
-    margin-top: 101px;
+    margin-top: 30px;
+    margin-bottom: -50px;
 }
 
 .content-index-a button {
@@ -111,12 +107,26 @@ footer {
     color: white;
 }
 
+@media(max-width:767px) {
+
+    .content-index-a .content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .content-index-a img {
+        display: none;
+    }
+
+}
+
 .content-index-b {
     background-color: #fbfcfe;
 }
 
 .content-index-b .content {
-    padding-top: 200px;
+    margin-top: 180px;
+    margin-bottom: 180px;
     font-size: 30px;
     line-height: 50px;
 }
@@ -127,7 +137,16 @@ footer {
 }
 
 .content-index-b img {
-    margin-top: 55px;
+    margin-bottom: -10px;
+}
+
+@media(max-width:767px) {
+
+    .content-index-b .content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
 }
 
 .content-index-c {
@@ -135,7 +154,8 @@ footer {
 }
 
 .content-index-c .content {
-    padding-top: 200px;
+    margin-top: 180px;
+    margin-bottom: 180px;
     font-size: 30px;
     line-height: 50px;
 }
@@ -145,8 +165,13 @@ footer {
     font-size: 15px;
 }
 
-.content-index-c img {
-    margin-top: 47px;
+@media(max-width:767px) {
+
+    .content-index-c .content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
 }
 
 .content-index-d {
@@ -154,7 +179,8 @@ footer {
 }
 
 .content-index-d .content {
-    padding-top: 200px;
+    margin-top: 180px;
+    margin-bottom: 180px;
     font-size: 30px;
     line-height: 50px;
 }
@@ -164,8 +190,13 @@ footer {
     font-size: 15px;
 }
 
-.content-index-d img {
-    margin-top: 39px;
+@media(max-width:767px) {
+
+    .content-index-d .content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
 }
 
 /* about */
