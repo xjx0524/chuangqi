@@ -213,31 +213,57 @@ footer {
 
 /* about */
 
+.banner {
+    position: relative;
+    overflow: auto;
+    text-align: center;
+}
+.banner ul {
+    padding: 0
+}
+.banner li {
+    list-style: none;
+}
+.banner ul li {
+    float: left;
+    height: 600px;
+    background-size: contain;
+}
+.banner .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+.banner .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+
+    text-indent: -999em;
+
+    border: 2px solid #fff;
+    border-radius: 6px;
+
+    cursor: pointer;
+    opacity: .4;
+
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+.banner .dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+
 .content-about {
     padding: 50px 0;
 }
 
 .content-about-b, .content-about-d {
     background-color: #eff0f1;
-}
-
-.content-about-header {
-    padding: 50px 0;
-    background: url("../img/about-banner.png") no-repeat center center;
-}
-
-.content-about-header .content {
-    margin-top: 55px;
-    margin-bottom: 55px;
-    color: white;
-    font-size: 28px;
-    line-height: 40px;
-}
-
-.content-about-header .content h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 40px;
 }
 
 .content-about .content {
