@@ -1,12 +1,14 @@
-/*@font-face {*/
-    /*font-family: 'RTWSYueRoudGoDemo';*/
-    /*src: url('../fonts/RTWSYueRoudGoDemo.eot?') format('eot');/!*IE*!/*/
-    /*src: url('../fonts/RTWSYueRoudGoDemo.woff') format('woff'),*/
-         /*url('../fonts/RTWSYueRoudGoDemo.ttf') format('truetype');/!*non-IE*!/*/
-/*}*/
+/* Webfont: RTWSYueRoundedGothicDemo-Reg */
 @font-face {
     font-family: 'RTWSYueRoudGoDemo';
-    src: url('../fonts/RTWSYueRoudGoDemo-Regular1.ttf') format('truetype');/*non-IE*/
+    src: url('../fonts/RTWSYueRoundedGothicDemo-Reg.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RTWSYueRoundedGothicDemo-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/RTWSYueRoundedGothicDemo-Reg.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/RTWSYueRoundedGothicDemo-Reg.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/RTWSYueRoundedGothicDemo-Reg.svg#RTWSYueRoundedGothicDemo-Reg') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
 
 body {
