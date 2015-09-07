@@ -486,3 +486,86 @@ footer {
     }
 
 }
+
+/* business */
+
+.content-business-header img {
+    width: 100%;
+}
+
+.content-business {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content-business-a {
+    background-color: #eeeff0;
+}
+
+.content-business h1 {
+    margin-top: -15px;
+    font-family: impact, serif;
+    font-size: 48px;
+    color: #f8c10b;
+}
+
+.content-business .sub-title {
+    background: url("../img/341.pic_hd.jpg") repeat-x center;
+}
+
+.content-business h3 {
+    margin: 20px auto 10px;
+    width: 136px;
+}
+
+.content-business-a h3 {
+    background-color: #eeeff0;
+}
+
+.content-business-b h3 {
+    background-color: white;
+}
+
+.content-business .content-wrapper {
+    margin-top: 30px;
+}
+
+.content-business .content-wrapper p {
+    text-align: left;
+    font-size: 22px;
+    padding-top: 120px;
+}
+
+.content-bd {
+    background: url("../img/bangdan.png") no-repeat top;
+}
+.content-aso {
+    background: url("../img/aso.png") no-repeat top;
+}
+.content-rs {
+    background: url("../img/resou.png") no-repeat top;
+}
+
+.content-business .img-row {
+    line-height: 120px;
+}
+
+.content-business .content-anli {
+    margin-top: 40px;
+}
+
+.content-business .content-contact {
+    margin-top: 40px;
+}
+
+.content-business .content-contact p {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+@media(max-width:767px) {
+    .content-business .content-anli img {
+        width: 100%;
+    }
+}
