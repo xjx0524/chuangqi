@@ -644,3 +644,7 @@ footer {
         width: 100%;
     }
 }
+
+.img-content img {
+    width: 100%;
+}
